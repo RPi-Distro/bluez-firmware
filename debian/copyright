@@ -1,0 +1,20 @@
+This package was debianized by Edd Dumbill <ejad@debian.org> on
+Fri Nov 12 11:18:04 GMT 2004
+
+It was downloaded from http:///www.bluez.org/download.html
+
+The BlueZ project has permission from Broadcom Corporation to
+distribute this firmware in conjunction with the BlueZ GPLd
+tools, available in Debian as bluez-utils, as long as the notice
+contained in /usr/share/doc/bluez-firmware/BCM-LEGAL.txt accompanies
+the firmware. 
+
+This arrangement was made with BlueZ author Max Krasnyansky
+<maxk@qualcomm.com>.
+
+BCM firmware version 2.16
+Copyright (c) 2000-2003 Broadcom Corporation
+
+Contact info:
+	bluetooth_help@broadcom.com
+

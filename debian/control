@@ -1,0 +1,13 @@
+Source: bluez-firmware
+Section: non-free/admin
+Priority: optional
+Maintainer: Edd Dumbill <ejad@debian.org>
+Build-Depends: debhelper (>> 4.1.0), autotools-dev, cdbs
+Standards-Version: 3.6.1
+
+Package: bluez-firmware
+Architecture: all
+Depends: ${shlibs:Depends}
+Description: Firmware for Bluetooth devices
+ This firmware is required for operation of Bluetooth dongles based on
+ the Broadcom BCM203x chipset.

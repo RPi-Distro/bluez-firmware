@@ -1,0 +1,11 @@
+bluez-firmware (1.0-2) unstable; urgency=low
+
+  * Move to Architecture: all.
+
+ -- Edd Dumbill <ejad@debian.org>  Sat, 13 Nov 2004 15:19:33 +0000
+
+bluez-firmware (1.0-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Edd Dumbill <ejad@debian.org>  Sat, 13 Nov 2004 15:19:29 +0000

@@ -6,5 +6,5 @@ include /usr/share/cdbs/1/class/autotools.mk
 
 install/bluez-firmware::
 	mkdir -p $(DEB_DESTDIR)usr/share/doc/bluez-firmware
-	mv $(DEB_DESTDIR)lib/firmware/BCM-LEGAL.txt  \
+	mv $(DEB_DESTDIR)usr/lib/firmware/BCM-LEGAL.txt  \
 		$(DEB_DESTDIR)usr/share/doc/bluez-firmware/

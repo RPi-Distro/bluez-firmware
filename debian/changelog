@@ -1,3 +1,17 @@
+bluez-firmware (1.2-1) unstable; urgency=low
+
+  * New upstream release
+  * some firmware added (STM)
+  * update standards to 3.7.2, no changes 
+
+ -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:30:13 +0200
+
+bluez-firmware (1.1-1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Filippo Giunchedi <filippo@debian.org>  Thu, 10 Nov 2005 23:35:23 +0100
+
 bluez-firmware (1.0-3) unstable; urgency=low
 
   * Include copy of Broadcomm permission to distribute (Closes: #304870)

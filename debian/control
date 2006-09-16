@@ -3,7 +3,7 @@ Section: non-free/admin
 Priority: optional
 Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org> 
 Uploaders: Edd Dumbill <ejad@debian.org>, Filippo Giunchedi <filippo@debian.org>
-Build-Depends: debhelper (>> 4.1.0), autotools-dev, cdbs
+Build-Depends: debhelper (>= 5), autotools-dev, cdbs
 Standards-Version: 3.7.2
 
 Package: bluez-firmware

@@ -1,0 +1,78 @@
+bluez-firmware (1.2-3+rpt4.1) stretch; urgency=medium
+
+  * Add BCM4345C0.hcd
+
+ -- Serge Schneider <serge@raspberrypi.org>  Tue, 06 Mar 2018 15:57:00 +0000
+
+bluez-firmware (1.2-3+rpt3) stretch; urgency=medium
+
+  * Move BCM43430A1.hcd to /lib/firmware/brcm/
+
+ -- Serge Schneider <serge@raspberrypi.org>  Tue, 06 Mar 2018 15:31:52 +0000
+
+bluez-firmware (1.2-3+rpt2) stretch; urgency=medium
+
+  * Update BCM43430A1.hcd
+
+ -- Serge Schneider <serge@raspberrypi.org>  Wed, 10 Jan 2018 22:22:17 +0000
+
+bluez-firmware (1.2-3+rpt1) stretch; urgency=medium
+
+  * Update BCM43430A1.hcd
+
+ -- Serge Schneider <serge@raspberrypi.org>  Fri, 20 Oct 2017 10:46:27 +0100
+
+bluez-firmware (1.2-3+rpi2) stretch; urgency=medium
+
+  * Update BCM43430A1.hcd
+
+ -- Serge Schneider <serge@raspberrypi.org>  Wed, 09 Aug 2017 12:59:03 +0100
+
+bluez-firmware (1.2-3+rpi1) jessie; urgency=medium
+
+  * Add BCM43430A1.hcd
+  * Port to 3.0 (quilt)
+
+ -- Serge Schneider <serge@raspberrypi.org>  Tue, 23 Feb 2016 16:20:20 +0000
+
+bluez-firmware (1.2-3) unstable; urgency=low
+
+  * Team upload.
+  * Edd Dumbill <ejad@debian.org> has retired. Remove from Uploaders.
+    (Closes: #656031)
+  * Add myself to Uploaders.
+  * Update Section from non-free/admin to non-free/kernel.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 19 Jan 2012 12:22:55 +0900
+
+bluez-firmware (1.2-2) unstable; urgency=low
+
+  * move /usr/lib/firmware to /lib/firmware (Closes: #400040) 
+  
+ -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:57:52 +0200
+
+bluez-firmware (1.2-1) unstable; urgency=low
+
+  * New upstream release
+  * some firmware added (STM)
+  * update standards to 3.7.2, no changes 
+
+ -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:30:13 +0200
+
+bluez-firmware (1.0-3) unstable; urgency=low
+
+  * Include copy of Broadcomm permission to distribute (Closes: #304870)
+
+ -- Edd Dumbill <ejad@debian.org>  Sat, 16 Jul 2005 15:15:31 +0100
+
+bluez-firmware (1.0-2) unstable; urgency=low
+
+  * Move to Architecture: all.
+
+ -- Edd Dumbill <ejad@debian.org>  Sat, 13 Nov 2004 15:19:33 +0000
+
+bluez-firmware (1.0-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Edd Dumbill <ejad@debian.org>  Sat, 13 Nov 2004 15:19:29 +0000

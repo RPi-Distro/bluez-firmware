@@ -1,0 +1,5 @@
+
+This firmware is required for the successful operation of Broadcom based USB
+dongles.  Kernel 2.6 users need hotplug installed in order to use this.  Kernel
+2.4 users should install the bluez-bcm203x package.
+

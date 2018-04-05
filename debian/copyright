@@ -1,0 +1,86 @@
+This package was debianized by Edd Dumbill <ejad@debian.org> on
+Fri Nov 12 11:18:04 GMT 2004
+
+It was downloaded from http://www.bluez.org/download.html
+
+The BlueZ project has permission from Broadcom Corporation to
+distribute this firmware in conjunction with the BlueZ tools,
+available in Debian as bluez-utils, as long as the notice contained in
+/usr/share/doc/bluez-firmware/BCM-LEGAL.txt accompanies the firmware. 
+
+This arrangement was made with BlueZ author Max Krasnyansky
+<maxk@qualcomm.com>.
+
+BCM firmware version 2.16
+Copyright (c) 2000-2003 Broadcom Corporation
+
+Contact info:
+	bluetooth_help@broadcom.com
+
+Received: from enigma.qualcomm.com (enigma.qualcomm.com [129.46.64.203])
+         by mail1.qualcomm.com (8.12.1/8.12.1/1.0) with ESMTP id fB3MjfxX010506
+         for <maxk@mail1.qualcomm.com>; Mon, 3 Dec 2001 14:45:41 -0800 (PST)
+Received: from moria.qualcomm.com (qualcomm.com [199.106.114.68])
+         by enigma.qualcomm.com (8.12.1/8.11.3/1.0) with ESMTP id fB3Mjcun020569
+         for <maxk@qualcomm.com>; Mon, 3 Dec 2001 14:45:38 -0800 (PST)
+Received: from mms1.broadcom.com (mms1.broadcom.com [63.70.210.58]) by moria.qualcomm.com  with
+  SMTP id OAA19783 for <maxk@qualcomm.com>; Mon, 3 Dec 2001 14:44:26 -0800 (PST)
+From: ochikubo@broadcom.com
+Received: from 63.70.210.4 by mms1.broadcom.com with SMTP (Broadcom
+  MMS-1 SMTP Relay (MMS v4.7)); Mon, 03 Dec 2001 14:45:21 -0800
+X-Server-Uuid: 1e1caf3a-b686-11d4-a6a3-00508bfc9ae5
+Received: from ltelsaochikubo ([10.13.17.128]) by
+  mail-irva-1.broadcom.com (Post.Office MTA v3.5.3 release 223 ID#
+  0-71992U7200L1200S0V35) with SMTP id com; Mon, 3 Dec 2001 14:45:34
+  -0800
+To: "'Maksim Krasnyanskiy'" <maxk@qualcomm.com>
+cc: "'Tom Ramsthaler (E-mail)'" <tramsthaler@broadcom.com>,
+    "'Scott Bibaud (E-mail)'" <sbibaud@broadcom.com>,
+    "'Daniel Hess (E-mail)'" <dahess@broadcom.com>,
+    "'Nick Kawaguchi (E-mail)'" <nkawaguchi@broadcom.com>,
+    "Lynn Couillard (E-mail)" <lynnc@broadcom.com>,
+    "Robert Hulvey (E-mail)" <rwhulvey@broadcom.com>
+Subject: RE: Release of firmware with BlueZ port
+Date: Mon, 3 Dec 2001 14:38:08 -0800
+Message-ID: <000901c17c4c$38078460$0100007f@ltelsaochikubo>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook CWS, Build 9.0.2416 (9.0.2910.0)
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2462.0000
+In-Reply-To: <5.1.0.14.0.20011106144315.01cebb50@mail1>
+X-WSS-ID: 1012DF0B501255-01-01
+X-UIDL: S+:"!4]]!!!gj!!c@]"!
+Status: RO
+Mime-Version: 1.0
+
+Max,
+
+Good news. We have Broadcom Corporate and Legal approval for release of our
+firmware as part of the BlueZ posting. Send us a copy of it to load up when
+you have a chance (or let us know when its up and we will download it).
+
+The BCM_LEGAL.txt file should contain the following information:
+
+- - - - - -
+
+BCM firmware version 2.9
+Copyright (c) 2000-2001 Broadcom Corporation
+
+Contact info:
+         bluetooth_help@broadcom.com
+
+BlueFW will have:
+         BCM2033_md.hex  -       BCM mini driver
+         BCM2033_fw.bin  -       BCM firmware
+         BCM.LEGAL.txt   -       Legal info
+
+- - - - - -
+
+We are going to make another release of firmware in about 2 weeks and will
+definitely keep you in the loop.
+
+Regards,
+
+Craig
+

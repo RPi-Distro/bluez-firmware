@@ -1,3 +1,11 @@
+bluez-firmware (1.2-3+rpt5) stretch; urgency=medium
+
+  * Update copyright information
+  * Bump Standards-Version
+  * Bump debhelper compatibility version
+
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 30 Apr 2018 12:57:22 +0100
+
 bluez-firmware (1.2-3+rpt4.1) stretch; urgency=medium
 
   * Add BCM4345C0.hcd

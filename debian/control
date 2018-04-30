@@ -3,12 +3,12 @@ Section: non-free/kernel
 Priority: optional
 Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org> 
 Uploaders: Filippo Giunchedi <filippo@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>
-Build-Depends: debhelper (>= 5), dh-autoreconf
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10), dh-autoreconf
+Standards-Version: 3.9.8
 
 Package: bluez-firmware
 Architecture: all
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Firmware for Bluetooth devices
  This firmware is required for operation of Bluetooth dongles based on
  the Broadcom BCM203x chipset.

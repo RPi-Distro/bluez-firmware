@@ -1,3 +1,10 @@
+bluez-firmware (1.2-3+rpt6) stretch; urgency=medium
+
+  * Update BCM4345C0.hcd
+    - Enables BT 4.2 functionality
+
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 04 Jun 2018 14:42:07 +0100
+
 bluez-firmware (1.2-3+rpt5) stretch; urgency=medium
 
   * Update copyright information

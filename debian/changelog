@@ -3,6 +3,7 @@ bluez-firmware (1.2-4) UNRELEASED; urgency=medium
   * Change team mail address. (Closes: #899453)
   * Bump Standards-Version to 4.1.4.
   * Add Vcs-Git and Vcs-Browser.
+  * Update debhelper to 11.
 
  -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 09 Jun 2018 07:02:39 +0900
 

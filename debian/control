@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Uploaders: Filippo Giunchedi <filippo@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Build-Depends: debhelper (>= 5), autotools-dev, cdbs
-Standards-Version: 3.7.2
+Standards-Version: 4.1.4
 
 Package: bluez-firmware
 Architecture: all

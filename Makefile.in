@@ -14,10 +14,6 @@
 
 @SET_MAKE@
 
-#
-#  $Id: Makefile.am,v 1.2 2004/07/26 22:17:36 holtmann Exp $
-#
-
 srcdir = @srcdir@
 top_srcdir = @top_srcdir@
 VPATH = @srcdir@
@@ -72,49 +68,67 @@ SET_MAKE = @SET_MAKE@
 SHELL = @SHELL@
 STRIP = @STRIP@
 VERSION = @VERSION@
-ac_ct_STRIP = @ac_ct_STRIP@
 am__leading_dot = @am__leading_dot@
 bindir = @bindir@
 build_alias = @build_alias@
 datadir = @datadir@
+datarootdir = @datarootdir@
+docdir = @docdir@
+dvidir = @dvidir@
 exec_prefix = @exec_prefix@
 host_alias = @host_alias@
+htmldir = @htmldir@
 includedir = @includedir@
 infodir = @infodir@
 install_sh = @install_sh@
 libdir = @libdir@
 libexecdir = @libexecdir@
+localedir = @localedir@
 localstatedir = @localstatedir@
 mandir = @mandir@
 oldincludedir = @oldincludedir@
+pdfdir = @pdfdir@
 prefix = @prefix@
 program_transform_name = @program_transform_name@
+psdir = @psdir@
 sbindir = @sbindir@
 sharedstatedir = @sharedstatedir@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 
-firmwaredir = /lib/firmware
+firmwaredir = $(libdir)/firmware
 
-firmware = \
-	broadcom/BCM-LEGAL.txt \
+firmware_DATA = \
 	broadcom/BCM2033-MD.hex \
-	broadcom/BCM2033-FW.bin
+	broadcom/BCM2033-FW.bin \
+	broadcom/BCM-LEGAL.txt \
+	st/STLC2500_R4_00_03.ptc \
+	st/STLC2500_R4_00_06.ssf \
+	st/STLC2500_R4_02_02_WLAN.ssf \
+	st/STLC2500_R4_02_04.ptc
 
 
-EXTRA_DIST = $(firmware)
+EXTRA_DIST = $(firmware_DATA) \
+	broadcom/BCM2033-2.13-FW.bin \
+	broadcom/BCM2033-2.14-FW.bin \
+	broadcom/BCM2033-2.15-FW.bin \
+	broadcom/BCM2033-2.16-FW.bin \
+	broadcom/bcm_changeba \
+	broadcom/bcm_changeid \
+	broadcom/bcm_hex2bin
+
 
 MAINTAINERCLEANFILES = Makefile.in \
 	aclocal.m4 configure config.h.in \
-	missing install-sh mkinstalldirs
+	depcomp missing install-sh mkinstalldirs
 
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
 CONFIG_CLEAN_FILES =
-depcomp =
-am__depfiles_maybe =
 DIST_SOURCES =
+DATA = $(firmware_DATA)
+
 DIST_COMMON = README $(srcdir)/Makefile.in $(srcdir)/configure AUTHORS \
 	COPYING ChangeLog INSTALL Makefile.am NEWS aclocal.m4 \
 	configure.in install-sh missing mkinstalldirs
@@ -126,7 +140,7 @@ am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno
 $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ Makefile.am  $(top_srcdir)/configure.in $(ACLOCAL_M4)
 	cd $(top_srcdir) && \
-	  $(AUTOMAKE) --gnu  --ignore-deps Makefile
+	  $(AUTOMAKE) --gnu  Makefile
 Makefile: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.in  $(top_builddir)/config.status
 	cd $(top_builddir) && $(SHELL) ./config.status $@ $(am__depfiles_maybe)
 
@@ -138,6 +152,24 @@ $(srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(srcdir)/configure.in $(ACLOCAL_M4)
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ configure.in 
 	cd $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
 uninstall-info-am:
+firmwareDATA_INSTALL = $(INSTALL_DATA)
+install-firmwareDATA: $(firmware_DATA)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(firmwaredir)
+	@list='$(firmware_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f="`echo $$p | sed -e 's|^.*/||'`"; \
+	  echo " $(firmwareDATA_INSTALL) $$d$$p $(DESTDIR)$(firmwaredir)/$$f"; \
+	  $(firmwareDATA_INSTALL) $$d$$p $(DESTDIR)$(firmwaredir)/$$f; \
+	done
+
+uninstall-firmwareDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(firmware_DATA)'; for p in $$list; do \
+	  f="`echo $$p | sed -e 's|^.*/||'`"; \
+	  echo " rm -f $(DESTDIR)$(firmwaredir)/$$f"; \
+	  rm -f $(DESTDIR)$(firmwaredir)/$$f; \
+	done
 tags: TAGS
 TAGS:
 
@@ -161,7 +193,7 @@ distcleancheck_listfiles = find . -type f -print
 distdir: $(DISTFILES)
 	$(am__remove_distdir)
 	mkdir $(distdir)
-	$(mkinstalldirs) $(distdir)/broadcom
+	$(mkinstalldirs) $(distdir)/broadcom $(distdir)/st
 	@srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`; \
 	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's|.|.|g'`; \
 	list='$(DISTFILES)'; for file in $$list; do \
@@ -259,9 +291,10 @@ distcleancheck: distclean
 	       exit 1; } >&2
 check-am: all-am
 check: check-am
-all-am: Makefile
+all-am: Makefile $(DATA)
 
 installdirs:
+	$(mkinstalldirs) $(DESTDIR)$(firmwaredir)
 install: install-am
 install-exec: install-exec-am
 install-data: install-data-am
@@ -304,7 +337,7 @@ info: info-am
 
 info-am:
 
-install-data-am: install-data-local
+install-data-am: install-firmwareDATA
 
 install-exec-am:
 
@@ -332,31 +365,19 @@ ps: ps-am
 
 ps-am:
 
-uninstall-am: uninstall-info-am uninstall-local
+uninstall-am: uninstall-firmwareDATA uninstall-info-am
 
 .PHONY: all all-am check check-am clean clean-generic dist dist-all \
 	dist-gzip distcheck distclean distclean-generic distcleancheck \
 	distdir distuninstallcheck dvi dvi-am info info-am install \
-	install-am install-data install-data-am install-data-local \
-	install-exec install-exec-am install-info install-info-am \
-	install-man install-strip installcheck installcheck-am \
-	installdirs maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic pdf pdf-am ps ps-am uninstall \
-	uninstall-am uninstall-info-am uninstall-local
+	install-am install-data install-data-am install-exec \
+	install-exec-am install-firmwareDATA install-info \
+	install-info-am install-man install-strip installcheck \
+	installcheck-am installdirs maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-generic pdf \
+	pdf-am ps ps-am uninstall uninstall-am uninstall-firmwareDATA \
+	uninstall-info-am
 
-
-install-data-local: $(firmware)
-	$(mkinstalldirs) $(DESTDIR)$(firmwaredir)
-	list='$?'; \
-	for i in $$list; do \
-		$(INSTALL_DATA) $(srcdir)/$$i $(DESTDIR)$(firmwaredir); \
-	done
-
-uninstall-local: $(firmware)
-	list='$(notdir $?)'; \
-	for i in $$list; do \
-		rm -f $(DESTDIR)$(firmwaredir)/$$i; \
-	done
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:

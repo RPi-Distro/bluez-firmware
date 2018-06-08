@@ -18,15 +18,15 @@ bluez-firmware (1.2-3) unstable; urgency=low
 
 bluez-firmware (1.2-2) unstable; urgency=low
 
-  * move /usr/lib/firmware to /lib/firmware (Closes: #400040) 
-  
+  * move /usr/lib/firmware to /lib/firmware (Closes: #400040)
+ 
  -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:57:52 +0200
 
 bluez-firmware (1.2-1) unstable; urgency=low
 
   * New upstream release
   * some firmware added (STM)
-  * update standards to 3.7.2, no changes 
+  * update standards to 3.7.2, no changes
 
  -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:30:13 +0200
 

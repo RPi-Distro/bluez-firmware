@@ -5,6 +5,7 @@ bluez-firmware (1.2-4) unstable; urgency=medium
   * Add Vcs-Git and Vcs-Browser.
   * Update debhelper to 11.
   * Add Depends: ${misc:Depends} to Depends.
+  * Change build systemm from cdbs to debhelper.
 
  -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 09 Jun 2018 07:02:39 +0900
 

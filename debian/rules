@@ -1,12 +1,15 @@
 #!/usr/bin/make -f
-include /usr/share/cdbs/1/rules/buildcore.mk
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/rules/simple-patchsys.mk
-include /usr/share/cdbs/1/class/autotools.mk
 
-DEB_CONFIGURE_EXTRA_FLAGS = --libdir=/lib
+DEB_DESTDIR := debian/bluez-firmware
 
-install/bluez-firmware::
-	mkdir -p $(DEB_DESTDIR)usr/share/doc/bluez-firmware
-	mv $(DEB_DESTDIR)lib/firmware/BCM-LEGAL.txt  \
-		$(DEB_DESTDIR)usr/share/doc/bluez-firmware/
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- --libdir=/lib
+
+override_dh_auto_install:
+	dh_auto_install
+	mkdir -p $(DEB_DESTDIR)/usr/share/doc/bluez-firmware
+	mv $(DEB_DESTDIR)/lib/firmware/BCM-LEGAL.txt  \
+		$(DEB_DESTDIR)/usr/share/doc/bluez-firmware/

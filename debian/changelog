@@ -1,4 +1,4 @@
-bluez-firmware (1.2-4) UNRELEASED; urgency=medium
+bluez-firmware (1.2-4) unstable; urgency=medium
 
   * Change team mail address. (Closes: #899453)
   * Bump Standards-Version to 4.1.4.

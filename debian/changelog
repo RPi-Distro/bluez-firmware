@@ -1,9 +1,17 @@
+bluez-firmware (1.2-3+rpt7) stretch; urgency=medium
+
+  * Update BCM4345C0.hcd
+    - Restores the LEScan capability
+    - 003.001.025.0156.0280
+
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 04 Feb 2019 09:23:22 +0000
+
 bluez-firmware (1.2-3+rpt6) stretch; urgency=medium
 
   * Update BCM4345C0.hcd
     - Enables BT 4.2 functionality
 
- -- Serge Schneider <serge@raspberrypi.org>  Mon, 04 Jun 2018 14:42:07 +0100
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 21 May 2018 12:32:43 +0100
 
 bluez-firmware (1.2-3+rpt5) stretch; urgency=medium
 

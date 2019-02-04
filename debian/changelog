@@ -1,62 +1,20 @@
-bluez-firmware (1.2-3+rpt7) stretch; urgency=medium
-
-  * Update BCM4345C0.hcd
-    - Restores the LEScan capability
-    - 003.001.025.0156.0280
-
- -- Serge Schneider <serge@raspberrypi.org>  Mon, 04 Feb 2019 09:23:22 +0000
-
-bluez-firmware (1.2-3+rpt6) stretch; urgency=medium
-
-  * Update BCM4345C0.hcd
-    - Enables BT 4.2 functionality
-
- -- Serge Schneider <serge@raspberrypi.org>  Mon, 21 May 2018 12:32:43 +0100
-
-bluez-firmware (1.2-3+rpt5) stretch; urgency=medium
-
-  * Update copyright information
-  * Bump Standards-Version
-  * Bump debhelper compatibility version
-
- -- Serge Schneider <serge@raspberrypi.org>  Mon, 30 Apr 2018 12:57:22 +0100
-
-bluez-firmware (1.2-3+rpt4.1) stretch; urgency=medium
+bluez-firmware (1.2-4+rpt1) buster; urgency=medium
 
   * Add BCM4345C0.hcd
-
- -- Serge Schneider <serge@raspberrypi.org>  Tue, 06 Mar 2018 15:57:00 +0000
-
-bluez-firmware (1.2-3+rpt3) stretch; urgency=medium
-
-  * Move BCM43430A1.hcd to /lib/firmware/brcm/
-
- -- Serge Schneider <serge@raspberrypi.org>  Tue, 06 Mar 2018 15:31:52 +0000
-
-bluez-firmware (1.2-3+rpt2) stretch; urgency=medium
-
-  * Update BCM43430A1.hcd
-
- -- Serge Schneider <serge@raspberrypi.org>  Wed, 10 Jan 2018 22:22:17 +0000
-
-bluez-firmware (1.2-3+rpt1) stretch; urgency=medium
-
-  * Update BCM43430A1.hcd
-
- -- Serge Schneider <serge@raspberrypi.org>  Fri, 20 Oct 2017 10:46:27 +0100
-
-bluez-firmware (1.2-3+rpi2) stretch; urgency=medium
-
-  * Update BCM43430A1.hcd
-
- -- Serge Schneider <serge@raspberrypi.org>  Wed, 09 Aug 2017 12:59:03 +0100
-
-bluez-firmware (1.2-3+rpi1) jessie; urgency=medium
-
   * Add BCM43430A1.hcd
-  * Port to 3.0 (quilt)
 
- -- Serge Schneider <serge@raspberrypi.org>  Tue, 23 Feb 2016 16:20:20 +0000
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 04 Feb 2019 11:49:52 +0000
+
+bluez-firmware (1.2-4) unstable; urgency=medium
+
+  * Change team mail address. (Closes: #899453)
+  * Bump Standards-Version to 4.1.4.
+  * Add Vcs-Git and Vcs-Browser.
+  * Update debhelper to 11.
+  * Add Depends: ${misc:Depends} to Depends.
+  * Change build systemm from cdbs to debhelper.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 09 Jun 2018 07:02:39 +0900
 
 bluez-firmware (1.2-3) unstable; urgency=low
 
@@ -70,15 +28,15 @@ bluez-firmware (1.2-3) unstable; urgency=low
 
 bluez-firmware (1.2-2) unstable; urgency=low
 
-  * move /usr/lib/firmware to /lib/firmware (Closes: #400040) 
-  
+  * move /usr/lib/firmware to /lib/firmware (Closes: #400040)
+ 
  -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:57:52 +0200
 
 bluez-firmware (1.2-1) unstable; urgency=low
 
   * New upstream release
   * some firmware added (STM)
-  * update standards to 3.7.2, no changes 
+  * update standards to 3.7.2, no changes
 
  -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:30:13 +0200
 

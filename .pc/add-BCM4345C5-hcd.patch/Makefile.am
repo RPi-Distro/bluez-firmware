@@ -12,8 +12,7 @@ firmware_DATA = \
 
 brcm_DATA = \
 	broadcom/BCM43430A1.hcd \
-	broadcom/BCM4345C0.hcd \
-	broadcom/BCM4345C5.hcd
+	broadcom/BCM4345C0.hcd
 
 EXTRA_DIST = $(firmware_DATA) \
 	$(brcm_DATA) \

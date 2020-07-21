@@ -1,3 +1,9 @@
+bluez-firmware (1.2-4+rpt4) buster; urgency=medium
+
+  * Add BCM4345C5.hcd
+
+ -- Serge Schneider <serge@raspberrypi.com>  Tue, 21 Jul 2020 10:04:56 +0100
+
 bluez-firmware (1.2-4+rpt3) buster; urgency=medium
 
   * Update BCM43430A1.hcd

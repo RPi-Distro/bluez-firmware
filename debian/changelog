@@ -1,3 +1,12 @@
+bluez-firmware (1.2-4+rpt5) buster; urgency=medium
+
+  * Update BCM43430A1.hcd and BCM4345C0.hcd
+    - This BCM43438 and BCM43455 Bluetooth firmware updates work around most of
+      the report "Spectra" class of vulnerabilities. CVE-2020-10370 will be
+      addressed in a follow-up release.
+
+ -- Serge Schneider <serge@raspberrypi.com>  Thu, 03 Sep 2020 22:03:55 +0100
+
 bluez-firmware (1.2-4+rpt4) buster; urgency=medium
 
   * Add BCM4345C5.hcd

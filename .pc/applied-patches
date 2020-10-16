@@ -1,2 +1,3 @@
 add-BCM43430A1-bin.patch
 add-BCM4345C5-hcd.patch
+add-BCM43430B0-hcd.patch

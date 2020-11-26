@@ -1,3 +1,13 @@
+bluez-firmware (1.2-4+rpt7) buster; urgency=medium
+
+  [ Phil Elwell ]
+  * Bug fix CYW43455 firmware
+    - This update fixes the failure of CYW43455 to accept BLE connections.
+    - Original firmware name: BCM4345C0_003.001.025.0171.0339.hcd
+    - See: https://github.com/raspberrypi/linux/issues/3689
+
+ -- Serge Schneider <serge@raspberrypi.com>  Thu, 26 Nov 2020 19:25:53 +0000
+
 bluez-firmware (1.2-4+rpt6) buster; urgency=medium
 
   [ Phil Elwell ]

@@ -1,10 +1,21 @@
-bluez-firmware (1.2-5) UNRELEASED; urgency=medium
+bluez-firmware (1.2-5) unstable; urgency=medium
 
+  [ Debian Janitor ]
   * Trim trailing whitespace.
   * Upgrade to newer source format 3.0 (quilt).
   * Set debhelper-compat version in Build-Depends.
 
- -- Debian Janitor <janitor@jelmer.uk>  Tue, 21 Sep 2021 22:31:55 -0000
+  [ Nobuhiro Iwamatsu ]
+  * d/control
+    - Bump debhelper compatibility level to 13.
+    - Add "Rules-Requires-Root: no".
+    - Bump Standards-Version to 4.5.1 (no change).
+  * d/control
+    - Drop unnecessary autotools-dev from B-D
+  * Remove outdated README.Debian (Closes: #986585).
+  * Add d/gbp.conf.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 23 Sep 2021 07:45:07 +0900
 
 bluez-firmware (1.2-4) unstable; urgency=medium
 

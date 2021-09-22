@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Build-Depends: debhelper-compat (= 13), autotools-dev
-Standards-Version: 4.1.4
+Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/bluetooth-team/bluez-firmware.git
 Vcs-Browser: https://salsa.debian.org/bluetooth-team/bluez-firmware

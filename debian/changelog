@@ -1,3 +1,11 @@
+bluez-firmware (1.2-5) UNRELEASED; urgency=medium
+
+  * Trim trailing whitespace.
+  * Upgrade to newer source format 3.0 (quilt).
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Tue, 21 Sep 2021 22:31:55 -0000
+
 bluez-firmware (1.2-4) unstable; urgency=medium
 
   * Change team mail address. (Closes: #899453)
@@ -22,7 +30,7 @@ bluez-firmware (1.2-3) unstable; urgency=low
 bluez-firmware (1.2-2) unstable; urgency=low
 
   * move /usr/lib/firmware to /lib/firmware (Closes: #400040)
- 
+
  -- Filippo Giunchedi <filippo@debian.org>  Sat, 16 Sep 2006 22:57:52 +0200
 
 bluez-firmware (1.2-1) unstable; urgency=low

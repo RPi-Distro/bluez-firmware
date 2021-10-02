@@ -13,3 +13,9 @@ override_dh_auto_install:
 	mkdir -p $(DEB_DESTDIR)/usr/share/doc/bluez-firmware
 	mv $(DEB_DESTDIR)/lib/firmware/BCM-LEGAL.txt  \
 		$(DEB_DESTDIR)/usr/share/doc/bluez-firmware/
+	# Copy firmware of Raspberry Pi
+	mkdir -p $(DEB_DESTDIR)/lib/firmware/brcm
+	cp $(CURDIR)/debian/firmware/broadcom/*.hcd \
+		$(DEB_DESTDIR)/lib/firmware/brcm/.
+	cp $(CURDIR)/debian/firmware/broadcom/LICENSE.cypress \
+		$(DEB_DESTDIR)/usr/share/doc/bluez-firmware/

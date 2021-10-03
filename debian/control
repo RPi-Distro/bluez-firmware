@@ -14,4 +14,4 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Firmware for Bluetooth devices
  This firmware is required for operation of Bluetooth dongles based on
- the Broadcom BCM203x chipset.
+ the Broadcom BCM203x and Raspberry Pi chipset.

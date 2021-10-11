@@ -1,3 +1,14 @@
+bluez-firmware (1.2-6) unstable; urgency=medium
+
+  * Add bluetooth firmare of Cypress for Raspberry Pi (ClosesP: #962038)
+  * d/copyright
+    - Add license information of broadcom/BCM43430A1.hcd and others
+    - Update to DEP5
+  * d/control
+    - Update package description
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 11 Oct 2021 08:59:24 +0900
+
 bluez-firmware (1.2-5) unstable; urgency=medium
 
   [ Debian Janitor ]

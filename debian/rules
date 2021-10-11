@@ -17,5 +17,3 @@ override_dh_auto_install:
 	mkdir -p $(DEB_DESTDIR)/lib/firmware/brcm
 	cp $(CURDIR)/debian/firmware/broadcom/*.hcd \
 		$(DEB_DESTDIR)/lib/firmware/brcm/.
-	cp $(CURDIR)/debian/firmware/broadcom/LICENSE.cypress \
-		$(DEB_DESTDIR)/usr/share/doc/bluez-firmware/

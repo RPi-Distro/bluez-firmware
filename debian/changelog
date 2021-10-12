@@ -1,3 +1,9 @@
+bluez-firmware (1.2-7) unstable; urgency=medium
+
+  * Re-uploaded to force rebuild.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 12 Oct 2021 13:32:45 +0900
+
 bluez-firmware (1.2-6) unstable; urgency=medium
 
   * Add bluetooth firmare of Cypress for Raspberry Pi (ClosesP: #962038)

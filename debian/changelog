@@ -6,7 +6,7 @@ bluez-firmware (1.2-7) unstable; urgency=medium
 
 bluez-firmware (1.2-6) unstable; urgency=medium
 
-  * Add bluetooth firmare of Cypress for Raspberry Pi (ClosesP: #962038)
+  * Add bluetooth firmare of Cypress for Raspberry Pi (Closes: #962038)
   * d/copyright
     - Add license information of broadcom/BCM43430A1.hcd and others
     - Update to DEP5

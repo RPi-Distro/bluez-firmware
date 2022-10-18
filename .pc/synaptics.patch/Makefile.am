@@ -1,7 +1,6 @@
 
 firmwaredir = $(libdir)/firmware
 brcmdir = $(firmwaredir)/brcm
-synapticsdir = $(firmwaredir)/synaptics
 
 firmware_DATA = \
 	broadcom/BCM2033-MD.hex \
@@ -17,13 +16,8 @@ brcm_DATA = \
 	broadcom/BCM4345C5.hcd \
 	broadcom/BCM43430B0.hcd
 
-synaptics_DATA = \
-	synaptics/SYN43430A1.hcd \
-	synaptics/SYN43430B0.hcd
-
 EXTRA_DIST = $(firmware_DATA) \
 	$(brcm_DATA) \
-	$(synaptics_DATA) \
 	broadcom/BCM2033-2.13-FW.bin \
 	broadcom/BCM2033-2.14-FW.bin \
 	broadcom/BCM2033-2.15-FW.bin \

@@ -1,3 +1,10 @@
+bluez-firmware (1.2-9) unstable; urgency=medium
+
+  * Move source and binary from non-free/kernel to non-free-firmware/kernel
+    following the 2022 General Resolution about non-free firmware.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 28 Jan 2023 03:00:16 +0000
+
 bluez-firmware (1.2-8) unstable; urgency=medium
 
   * Update d/firmware/broadcom/BCM4345C5.hcd. (Closes: #1024356)

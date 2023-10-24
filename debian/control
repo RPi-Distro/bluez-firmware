@@ -1,5 +1,5 @@
 Source: bluez-firmware
-Section: non-free/kernel
+Section: non-free-firmware/kernel
 Priority: optional
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
 Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>

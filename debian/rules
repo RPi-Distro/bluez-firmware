@@ -17,3 +17,6 @@ override_dh_auto_install:
 	mkdir -p $(DEB_DESTDIR)/lib/firmware/brcm
 	cp $(CURDIR)/debian/firmware/broadcom/*.hcd \
 		$(DEB_DESTDIR)/lib/firmware/brcm/.
+	mkdir -p $(DEB_DESTDIR)/lib/firmware/synaptics
+	cp $(CURDIR)/debian/firmware/synaptics/*.hcd \
+		$(DEB_DESTDIR)/lib/firmware/synaptics/.

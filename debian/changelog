@@ -1,3 +1,13 @@
+bluez-firmware (1.2-9+rpt1) bookworm; urgency=medium
+
+  * Update copyright file
+  [ Phil Elwell ]
+  * Update BCM4345C0.hcd
+  * Add Synaptics firmware
+  * Add board-specific links for the Zero 2 W firmware
+
+ -- Serge Schneider <serge@raspberrypi.com>  Tue, 14 Feb 2023 12:47:27 +0000
+
 bluez-firmware (1.2-9) unstable; urgency=medium
 
   * Move source and binary from non-free/kernel to non-free-firmware/kernel

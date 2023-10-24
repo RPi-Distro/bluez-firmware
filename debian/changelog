@@ -1,3 +1,14 @@
+bluez-firmware (1.2-9+rpt2) bookworm; urgency=medium
+
+  [ Phil Elwell ]
+  * More model-specific firmware links
+
+  [ Serge Schneider ]
+  * Install symlinks through bluez-firmware.links
+  * Import 43456 firmware: Fix BLE advertising on new phones
+
+ -- Serge Schneider <serge@raspberrypi.com>  Tue, 24 Oct 2023 15:05:33 +0100
+
 bluez-firmware (1.2-9+rpt1) bookworm; urgency=medium
 
   * Update copyright file

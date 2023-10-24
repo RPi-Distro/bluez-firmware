@@ -1,3 +1,11 @@
+bluez-firmware (1.2-4+rpt11) bullseye; urgency=medium
+
+  [ Phil Elwell ]
+  * 43456 firmware: Fix BLE advertising on new phones
+  * More model-specific firmware links
+
+ -- Serge Schneider <serge@raspberrypi.com>  Tue, 24 Oct 2023 14:59:58 +0100
+
 bluez-firmware (1.2-4+rpt10) bullseye; urgency=medium
 
   [ Phil Elwell ]

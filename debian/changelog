@@ -1,3 +1,12 @@
+bluez-firmware (1.2-10) unstable; urgency=medium
+
+  [ Chris Hofstaedtler ]
+  [Chris Hofstaedtler]
+  * Non-maintainer upload.
+  * Install files into /usr instead of /. (Closes: #-1)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 04 Jan 2024 17:16:31 +0900
+
 bluez-firmware (1.2-9) unstable; urgency=medium
 
   * Move source and binary from non-free/kernel to non-free-firmware/kernel

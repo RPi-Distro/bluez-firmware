@@ -1,0 +1,11 @@
+---
+include:
+  - https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/recipes/debian.yml
+
+variables:
+  # Nothing gets compiled, so the `blhc` job has no value
+  SALSA_CI_DISABLE_BLHC: '1'
+  # On an arch-all package the `test-build-any` job has no value
+  SALSA_CI_DISABLE_BUILD_PACKAGE_ANY: '1'
+  # On an arch-all package the `test-crossbuild-arm64` job has no value
+  SALSA_CI_DISABLE_CROSSBUILD_ARM64: '1'

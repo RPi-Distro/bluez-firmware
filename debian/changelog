@@ -1,3 +1,11 @@
+bluez-firmware (1.2-11.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Correct changelog entry for 1.2-10 to include bug number.
+  * Upload with arch:all binary to really close #1059374 (Closes: #1059374)
+
+ -- Chris Hofstaedtler <zeha@debian.org>  Sat, 25 May 2024 09:37:27 +0200
+
 bluez-firmware (1.2-11) unstable; urgency=medium
 
   * Update d/broadcom/BCM4345C5.hcd.
@@ -8,9 +16,7 @@ bluez-firmware (1.2-11) unstable; urgency=medium
 bluez-firmware (1.2-10) unstable; urgency=medium
 
   [ Chris Hofstaedtler ]
-  [Chris Hofstaedtler]
-  * Non-maintainer upload.
-  * Install files into /usr instead of /. (Closes: #-1)
+  * Install files into /usr instead of /. (Closes: #1059374)
 
  -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 04 Jan 2024 17:16:31 +0900
 

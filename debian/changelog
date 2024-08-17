@@ -5,6 +5,10 @@ bluez-firmware (1.2-12.2) UNRELEASED; urgency=medium
   * d/control: Bump Standards-Version to 4.7.0 (no changes required)
   * ci: Add Salsa CI pipeline configuration
 
+  [ Petter Reinholdtsen ]
+  * Add Appstream metainfo announcing HW support. (Closes: #1076520)
+    - Add d/patches/1000-appstream-metainfo.patch.
+
  -- Diederik de Haas <didi.debian@cknow.org>  Sat, 09 Mar 2024 17:19:01 +0100
 
 bluez-firmware (1.2-11.1) unstable; urgency=medium

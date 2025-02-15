@@ -1,3 +1,11 @@
+bluez-firmware (1.2-13) unstable; urgency=medium
+
+  * d/patches: Update 1000-appstream-metainfo.patch. (Closes: #1078942)
+    - Correct Appstream metainfo, drop desktop type.
+      Thanks to Petter Reinholdtsen <pere@hungry.com>.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 15 Feb 2025 22:32:40 +0900
+
 bluez-firmware (1.2-12) unstable; urgency=medium
 
   [ Diederik de Haas ]

@@ -30,7 +30,7 @@ Index: bluez-firmware-salsa/org.bluez.firmware.metainfo.xml
 +++ bluez-firmware-salsa/org.bluez.firmware.metainfo.xml       2024-07-17 19:21:54.913286397 +0200
 @@ -0,0 +1,14 @@
 +<?xml version="1.0" encoding="UTF-8"?>
-+<component type="desktop">
++<component>
 +  <id>org.bluez.firmware</id>
 +  <metadata_license>MIT</metadata_license>
 +  <name>bluez-firmware</name>

@@ -1,8 +1,7 @@
 Source: bluez-firmware
 Section: non-free-firmware/kernel
 Priority: optional
-Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Maintainer: Serge Schneider <serge@raspberrypi.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.0
 Rules-Requires-Root: no

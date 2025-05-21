@@ -1,3 +1,12 @@
+bluez-firmware (1.2-13+rpt1) trixie; urgency=medium
+
+  * Add CYW43439 firmware
+  * Add synaptics firmware
+  * Add device symlinks
+  * Update maintainer information
+
+ -- Serge Schneider <serge@raspberrypi.com>  Wed, 21 May 2025 14:30:49 +0100
+
 bluez-firmware (1.2-13) unstable; urgency=medium
 
   * d/patches: Update 1000-appstream-metainfo.patch. (Closes: #1078942)

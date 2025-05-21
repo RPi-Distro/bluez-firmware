@@ -1,0 +1,13 @@
+/usr/lib/firmware/brcm/BCM43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,3-model-b.hcd
+/usr/lib/firmware/brcm/BCM43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-w.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-a-plus.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-b-plus.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,4-compute-module.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,4-model-b.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,5-model-b.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,500.hcd
+/usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,5-compute-module.hcd
+/usr/lib/firmware/brcm/BCM4345C5.hcd /usr/lib/firmware/brcm/BCM4345C5.raspberrypi,4-compute-module.hcd
+/usr/lib/firmware/brcm/BCM4345C5.hcd /usr/lib/firmware/brcm/BCM4345C5.raspberrypi,400.hcd
+/usr/lib/firmware/synaptics/SYN43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-2-w.hcd
+/usr/lib/firmware/synaptics/SYN43430B0.hcd /usr/lib/firmware/brcm/BCM43430B0.raspberrypi,model-zero-2-w.hcd

@@ -1,5 +1,6 @@
 /usr/lib/firmware/brcm/BCM43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,3-model-b.hcd
 /usr/lib/firmware/brcm/BCM43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-w.hcd
+/usr/lib/firmware/brcm/BCM4343A2.hcd /usr/lib/firmware/brcm/BCM4343A2.raspberrypi,0-compute-module.hcd
 /usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-a-plus.hcd
 /usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-b-plus.hcd
 /usr/lib/firmware/brcm/BCM4345C0.hcd /usr/lib/firmware/brcm/BCM4345C0.raspberrypi,4-compute-module.hcd

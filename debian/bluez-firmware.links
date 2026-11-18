@@ -12,3 +12,5 @@
 /usr/lib/firmware/brcm/BCM4345C5.hcd /usr/lib/firmware/brcm/BCM4345C5.raspberrypi,400.hcd
 /usr/lib/firmware/synaptics/SYN43430A1.hcd /usr/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-2-w.hcd
 /usr/lib/firmware/synaptics/SYN43430B0.hcd /usr/lib/firmware/brcm/BCM43430B0.raspberrypi,model-zero-2-w.hcd
+/usr/lib/firmware/synaptics/SYN43430B0.hcd /usr/lib/firmware/brcm/BCM43430B0.raspberrypi,model-zero-3-w.hcd
+/usr/lib/firmware/synaptics/SYN43430B0.hcd /usr/lib/firmware/brcm/BCM43430B0.raspberrypi,4-model-a.hcd

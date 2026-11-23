@@ -1,3 +1,13 @@
+bluez-firmware (1.2-13+rpt3) trixie; urgency=medium
+
+  [ Phil Elwell ]
+  * Update bluez-firmware.links
+
+  [ Serge Schneider ]
+  * Update gbp.conf
+
+ -- Serge Schneider <serge@raspberrypi.com>  Mon, 23 Nov 2026 16:21:31 +0000
+
 bluez-firmware (1.2-13+rpt2) trixie; urgency=medium
 
   [ Phil Elwell ]
